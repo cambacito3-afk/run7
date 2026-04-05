@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>6 Majors — Sport Redesign Option B</title>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,600;0,700;0,800;1,600;1,700&family=Barlow:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- NAV -->
+  <nav class="navbar">
+    <a href="#home" class="nav-logo">6 <span>Majors</span></a>
+    
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#destinations">Destinations</a></li>
+      <li><a href="#packages">Packages</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    
+    <a href="#contact" class="nav-cta">Book now</a>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero" id="home">
+    <p class="hero-eyebrow">Abbott World Marathon Majors Travel</p>
+    <h1>Run the<br>world.<br><em>Here starts<br>your journey.</em></h1>
+    <p class="hero-sub">Expert travel packages for runners and supporters attending all six Abbott World Marathon Majors — Tokyo, Boston, London, Berlin, Chicago, New York.</p>
+    
+    <form class="hero-search" role="search">
+      <input type="search" placeholder="Tokyo, Boston, London..." list="races" />
+      <datalist id="races">
+        <option value="Tokyo">
+        <option value="Boston">
+        <option value="London">
+        <option value="Berlin">
+        <option value="Chicago">
+        <option value="New York">
+      </datalist>
+      <button type="submit">Search</button>
+    </form>
+  </header>
+
+  <!-- STATS -->
+  <div class="strip">
+    <div class="strip-item">
+      <div class="num">6</div>
+      <div class="lbl">World Majors</div>
+    </div>
+    <div class="strip-item">
+      <div class="num">500k+</div>
+      <div class="lbl">Runners yearly</div>
+    </div>
+    <div class="strip-item">
+      <div class="num">4</div>
+      <div class="lbl">Continents</div>
+    </div>
+    <div class="strip-item">
+      <div class="num">100+</div>
+      <div class="lbl">Countries</div>
+    </div>
+    <div class="strip-item">
+      <div class="num">6★</div>
+      <div class="lbl">Finisher medal</div>
+    </div>
+  </div>
+
+  <!-- RACES -->
+  <section class="section section--dark" id="destinations">
+    <div class="container">
+      <p class="section-eyebrow">The Races</p>
+      <h2 class="section-title">Choose your <em>Major</em></h2>
+    </div>
+    
+    <div class="race-grid">
+      <article class="race-card" tabindex="0">
+        <div class="race-num">01</div>
+        <span class="race-month">March</span>
+        <div class="race-city">Tokyo</div>
+        <div class="race-country">Japan · Est. 2007</div>
+        <p class="race-desc">The world's most precisely organised marathon. 38,000 runners through the heart of Tokyo.</p>
+        <a href="#" class="race-link">Explore + packages →</a>
+      </article>
+
+      <article class="race-card" tabindex="0">
+        <div class="race-num">02</div>
+        <span class="race-month">April</span>
+        <div class="race-city">Boston</div>
+        <div class="race-country">USA · Est. 1897</div>
+        <p class="race-desc">The world's oldest annual marathon. A Boston finish is one of running's highest honours.</p>
+        <a href="#" class="race-link">Explore + packages →</a>
+      </article>
+
+      <article class="race-card" tabindex="0">
+        <div class="race-num">03</div>
+        <span class="race-month">April</span>
+        <div class="race-city">London</div>
+        <div class="race-country">UK · Est. 1981</div>
+        <p class="race-desc">Past Tower Bridge, along the Thames to Buckingham Palace. One of the world's finest.</p>
+        <a href="#" class="race-link">Explore + packages →</a>
+      </article>
+
+      <article class="race-card" tabindex="0">
+        <div class="race-num">04</div>
+        <span class="race-month">September</span>
+        <div class="race-city">Berlin</div>
+        <div class="race-country">Germany · Est. 1974</div>
+        <p class="race-desc">The fastest marathon course in the world. More world records than any other Major.</p>
+        <a href="#" class="race-link">Explore + packages →</a>
+      </article>
+
+      <article class="race-card" tabindex="0">
+        <div class="race-num">05</div>
+        <span class="race-month">October</span>
+        <div class="race-city">Chicago</div>
+        <div class="race-country">USA · Est. 1977</div>
+        <p class="race-desc">A flat, fast loop through 29 diverse neighbourhoods with electric street atmosphere.</p>
+        <a href="#" class="race-link">Explore + packages →</a>
+      </article>
+
+      <article class="race-card" tabindex="0">
+        <div class="race-num">06</div>
+        <span class="race-month">November</span>
+        <div class="race-city">New York</div>
+        <div class="race-country">USA · Est. 1970</div>
+        <p class="race-desc">The world's largest marathon — 26.2 miles through all five boroughs to Central Park.</p>
+        <a href="#" class="race-link">Explore + packages →</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- PACKAGES -->
+  <section class="section section--light" id="packages">
+    <div class="container">
+      <p class="section-eyebrow">Travel Packages</p>
+      <h2 class="section-title">Find your <em>perfect trip</em></h2>
+    </div>
+    
+    <div class="pkg-grid">
+      <article class="pkg-card">
+        <span class="pkg-tag">Runner</span>
+        <div class="pkg-name">Race & Stay</div>
+        <p class="pkg-desc">Everything you need on race day — accommodation near the start line, transfers, and a finisher's welcome pack.</p>
+        <div class="pkg-footer">
+          <div class="pkg-price">£890</div>
+          <a href="#" class="pkg-btn">View →</a>
+        </div>
+      </article>
+
+      <article class="pkg-card">
+        <span class="pkg-tag">Supporter</span>
+        <div class="pkg-name">Cheer Package</div>
+        <p class="pkg-desc">Guided spectator positions, city highlights tour, and race day access included.</p>
+        <div class="pkg-footer">
+          <div class="pkg-price">£620</div>
+          <a href="#" class="pkg-btn">View →</a>
+        </div>
+      </article>
+
+      <article class="pkg-card">
+        <span class="pkg-tag">Premium</span>
+        <div class="pkg-name">Full Major</div>
+        <p class="pkg-desc">Flights, hotel, transfers, guided city tour, and a private finisher's dinner. Nothing left to plan.</p>
+        <div class="pkg-footer">
+          <div class="pkg-price">£1,890</div>
+          <a href="#" class="pkg-btn">View →</a>
+        </div>
+      </article>
+
+      <article class="pkg-card">
+        <span class="pkg-tag">Club</span>
+        <div class="pkg-name">Group Travel</div>
+        <p class="pkg-desc">Custom packages for running clubs of 10 or more. Dedicated group coordinator included.</p>
+        <div class="pkg-footer">
+          <div class="pkg-price">£750</div>
+          <a href="#" class="pkg-btn">View →</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta" id="contact">
+    <div class="container">
+      <div>
+        <h2 class="cta-title">Ready to run a<br><em>World Major?</em></h2>
+        <p class="cta-sub">Tell us your race and we'll put together the perfect travel plan — for you, your club, or your whole support crew.</p>
+      </div>
+      <div class="cta-buttons">
+        <a href="#" class="btn-primary">Get in touch</a>
+        <a href="#packages" class="btn-outline">View packages</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-logo">6 <span>Majors</span></div>
+      <ul class="footer-links">
+        <li><a href="#destinations">Destinations</a></li>
+        <li><a href="#packages">Packages</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <p class="footer-credit">Images: Unsplash / Pexels · Data: worldmarathonmajors.com</p>
+    </div>
+  </footer>
+</body>
+</html>
